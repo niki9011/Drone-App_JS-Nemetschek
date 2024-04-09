@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <img id="logo" src="https://ae04.alicdn.com/kf/Sbadbbbed83fe413ab3a6659c3462313cu.jpg"
+      alt="Drone Delivery Network Logo">
+    <h1 id="title" class="animated">Drone Delivery Sofia</h1>
+    <div><h2 id="services">Services</h2></div>
+    <div><h2 id="offises">Offices</h2></div>
+    <div><h2 id="galery">Gallery</h2></div>
+    <div><h2 id="about">About</h2></div>
+    <div><h2 id="contact">Contact</h2></div>
+  </header>
+
+  <main>
+    <div class="content">
+      <div class="left">
+        <button id="customerIdButton">Add Order</button>
+        <button id="calculateDeliveryTimeButton">Calculate Deliveries</button>
+        <button id="clearButton">Clear</button>
+        <div>
+          <label for="customerId">Customer ID:</label>
+          <input type="text" id="customerId" placeholder="Enter Customer ID">
+        </div>
+        <div id="output"></div>
+      </div>
+      <div class="right">
+        <iframe id="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.8429051015825!2d23.3219!3d42.6977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa857d9fda7c6b%3A0x8f3bcf62e3765f2c!2sSofia%2C%20Bulgaria!5e0!3m2!1sen!2sus!4v1645277645555!5m2!1sen!2sus"
+          frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Rise Nemetschek &copy; 2024 Nikolay Videnov</p>
+  </footer>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
